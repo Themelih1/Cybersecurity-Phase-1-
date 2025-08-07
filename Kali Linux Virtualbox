@@ -1,1 +1,6 @@
-## Acording to many my research if interesting to cyber security you have to using Kali Linux because this one most suitable dist. for this job.
+
+## Kali Linux Virtualbox
+-Acording to many my research if interesting to cyber security you have to using Kali Linux because this one most suitable dist. for this job.
+but i had started virtualbox on linux for linux kali then realized that is very difficult using virtualbox while on ubuntu because when using virtualbox on ubuntu you have to move VKM to black list. 
+This causes Docker to not work or other programs that can use vpn to not work. Therefore I started to using Virtual Machine Manager. Now There is not problem.
+Now  When I working on Kali Linux I use to this one.
