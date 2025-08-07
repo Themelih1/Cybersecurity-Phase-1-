@@ -1,0 +1,13 @@
+# Learning Linux Kali for Cybersecurity
+
+## If you willbe an cybersecurity You have to learn using linux terminal. Therfore I will share my note in here at my learning journey.
+
+## Firs of all you can install linux your pc. So  Actually I'm using windows my computer According to research, I thought Linux was an operating system worth downloading. then I deciced to dowlnad to linux my compiuter.I can't give up on Linux since then.
+
+## That is notes when i setup lunix on my pC >>> BIOS setting  : Sata Controller mode [AHCI}
+                                                               :Securrity mode Disable
+                                                               :Fast Boot Disable (Because If you select to on mode yr pc starting very fast so can pass to setup step when start up.)
+                                                               : OS mode selction UEFI and CSMI
+
+## I separate almost 80 gb free disk area for linux I did ar disk management on windows as manually. then  I dowlanded  linux Ubuntu from ofiical website 
+then  using Rufus I wrote to linux on usb (Usb from china) Then I setup linux ubuntu as using bios confiragition screen.
