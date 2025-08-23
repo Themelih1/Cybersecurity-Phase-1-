@@ -280,7 +280,8 @@ bash
     sudo ip link set wlan0 up
     sudo ip link set wlan0mon up
 
-    Pre-Capture Valid Values: Connect a client to the AP with an incorrect password and use Wireshark or tshark to capture valid scalar and finite values from the SAE Commit exchange in a failed authentication attempt. Use these values in the Scapy scripts.
+    Pre-Capture Valid Values: Connect a client to the AP with an incorrect password and use Wireshark or tshark to capture
+ valid scalar and finite values from the SAE Commit exchange in a failed authentication attempt. Use these values in the Scapy scripts.
 
 ##🛡️ Mitigations & References
 
@@ -291,7 +292,8 @@ Suggested Mitigations:
     Users: Keep AP firmware updated. Use unique, strong passwords.
 
 Original Paper:
-Chatzoglou, E., Kambourakis, G., & Kolias, C. (2022). How is your Wi-Fi connection today? DoS attacks on WPA3-SAE. Journal of Information Security and Applications, 64, 103058. https://doi.org/10.1016/j.jisa.2021.103058
+Chatzoglou, E., Kambourakis, G., & Kolias, C. (2022). How is your Wi-Fi connection today? DoS attacks on WPA3-SAE. J
+ournal of Information Security and Applications, 64, 103058. https://doi.org/10.1016/j.jisa.2021.103058
 
 Related Resources:
 
@@ -299,7 +301,8 @@ Related Resources:
 
     Dragondrain Tool (Vanhoef M.)
 
-📝 Contributions: This document is based on the aforementioned research. Feedback and corrections are welcome. Please submit issues or pull requests.
+📝 Contributions: This document is based on the aforementioned research. Feedback and corrections are welcome.
+ Please submit issues or pull requests.
 
 📜 License: This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.
 text
