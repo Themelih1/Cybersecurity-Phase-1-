@@ -282,7 +282,7 @@ bash
 
     Pre-Capture Valid Values: Connect a client to the AP with an incorrect password and use Wireshark or tshark to capture valid scalar and finite values from the SAE Commit exchange in a failed authentication attempt. Use these values in the Scapy scripts.
 
-🛡️ Mitigations & References
+##🛡️ Mitigations & References
 
 Suggested Mitigations:
 
