@@ -254,7 +254,7 @@ while True:
     sendp(frame, iface="wlo1", verbose=0, count=10)
     time.sleep(0.01)
 
-📊 Attack Comparison Table
+# 📊 Attack Comparison Table
 Attack Name	Level	Requirements	Key Weakness	Impact Time
 Doppelganger	Beginner	MAC Spoofing, PSK	SA Query not triggered	Instant
 Cookie Guzzler	Intermediate	Scapy, Random MACs	Anti-Clogging Mechanism	2-3 min
@@ -263,7 +263,7 @@ Memory Omnivore	Intermediate	Scapy, MAC Pool	Stateful Resource Holding	3-5 min
 Double-Decker	Advanced	Multi-threading	Combined CPU/Memory Load	1-2 min
 Amplification	Intermediate	Network Recon	Spoofed Source MAC	5+ min
 Open Authentication	Beginner	Scapy	Legacy Frame Processing	2-3 min
-🛠️ General Setup & Tools
+## 🛠️ General Setup & Tools
 
     Install Required Tools:
     bash
@@ -301,10 +301,10 @@ Related Resources:
 
     Dragondrain Tool (Vanhoef M.)
 
-📝 Contributions: This document is based on the aforementioned research. Feedback and corrections are welcome.
+## 📝 Contributions: This document is based on the aforementioned research. Feedback and corrections are welcome.
  Please submit issues or pull requests.
 
-📜 License: This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.
+## 📜 License: This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.
 text
 
 
