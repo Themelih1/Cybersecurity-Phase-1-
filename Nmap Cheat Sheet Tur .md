@@ -1,7 +1,4 @@
 
-## Türkçe Versiyon
-
-```markdown
 # Nmap Cheat Sheet 2025
 *Ağ Tarama ve Keşif için Tam Kılavuz*
 
