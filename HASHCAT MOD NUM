@@ -1,0 +1,12 @@
+
+          HASHCAT MOD NUMBER		
+Hash 	       :  Hashcat    John Format
+MD5	         :  0           raw-md5
+SHA1 	       :  100	        raw-sha1
+SHA256	     :  1400	      raw-sha256
+SHA512	     :  1700	      raw-sha512
+MD5 Crypt	   :  500	        md5crypt
+SHA256 Crypt :	7400	      sha256crypt
+SHA512 Crypt :	1800	      sha512crypt
+bcrypt	     :  3200	      bcrypt
+Yescrypt	   :  2900	      yescrypt
