@@ -1,0 +1,280 @@
+SİBER GÜVENLİK ROLÜ DETAYLI ANALİZİ
+1. SECURITY ANALYST (SOC)
+🎯 Rol Tanımı:
+
+Siber Güvenlik Operasyon Merkezi'nde 7/24 monitoring, threat detection ve incident triage.
+📊 Teknik Detaylar:
+
+    Temel Beceriler: SIEM kullanımı, log analizi, network temelleri
+
+    Araçlar: Splunk, QRadar, Elastic Stack, Wireshark
+
+    Sertifikalar: Security+, CySA+, GSEC
+
+    Ortalama Maaş: $65,000 - $95,000
+
+✅ Avantajlar:
+
+    Sektöre giriş için en uygun rol
+
+    Yüksek iş talebi ve istihdam güvenliği
+
+    Temel siber güvenlik becerilerini kazandırır
+
+    Hızlı kariyer progresyonu imkanı
+
+⚠️ Zorluklar:
+
+    Vardiyalı çalışma (7/24 operasyon)
+
+    Tekrarlayan görevler (alert fatigue)
+
+    Yüksek stres (gerçek zamanlı threat response)
+
+🎯 Kimler İçin Uygun:
+
+    Siber güvenliğe yeni başlayanlar
+
+    Takım çalışmasına yatkın bireyler
+
+    Detay odaklı ve analitik düşünenler
+
+2. SECURITY ENGINEER
+🎯 Rol Tanımı:
+
+Güvenlik altyapısı tasarımı, implementasyonu ve optimizasyonu.
+📊 Teknik Detaylar:
+
+    Temel Beceriler: Network security, cloud security, scripting
+
+    Araçlar: Firewalls, IDS/IPS, CSPM, Python/Bash
+
+    Sertifikalar: CISSP, CCSP, AWS Security Specialty
+
+    Ortalama Maaş: $90,000 - $140,000
+
+✅ Avantajlar:
+
+    Yüksek maaş potansiyeli
+
+    Proaktif ve yapıcı çalışma ortamı
+
+    Teknik derinlik ve uzmanlaşma imkanı
+
+    Sürekli öğrenme fırsatları
+
+⚠️ Zorluklar:
+
+    Yüksek teknik bilgi gereksinimi
+
+    Sürekli güncel kalmak zorunluluğu
+
+    Kritik sistemlerden dolayı yüksek sorumluluk
+
+🎯 Kimler İçin Uygun:
+
+    Teknik altyapısı güçlü bireyler
+
+    Problem çözme odaklı çalışanlar
+
+    Sistem ve network meraklıları
+
+3. INCIDENT RESPONDER
+🎯 Rol Tanımı:
+
+Siber saldırı anında kriz yönetimi, containment ve eradication.
+📊 Teknik Detaylar:
+
+    Temel Beceriler: Forensic analysis, malware analysis, threat hunting
+
+    Araçlar: EDR tools, forensic suites, IR platforms
+
+    Sertifikalar: GCIH, GCFA, GNFA
+
+    Ortalama Maaş: $85,000 - $130,000
+
+✅ Avantajlar:
+
+    Yüksek adrenalin ve dinamik çalışma ortamı
+
+    Kritik öneme sahip operasyonel rol
+
+    Derin teknik uzmanlık geliştirme
+
+    Takım liderliği deneyimi
+
+⚠️ Zorluklar:
+
+    Çok yüksek stres seviyesi
+
+    7/24 müdahale gerekliliği
+
+    Duygusal olarak yıpratıcı senaryolar
+
+🎯 Kimler İçin Uygun:
+
+    Kriz anında sakin kalabilenler
+
+    Hızlı karar verme becerisi olanlar
+
+    Detektiflik zekasına sahip bireyler
+
+4. DIGITAL FORENSIC EXAMINER
+🎯 Rol Tanımı:
+
+Dijital delil toplama, analiz ve adli süreç yönetimi.
+📊 Teknik Detaylar:
+
+    Temel Beceriler: Disk imaging, memory analysis, legal procedures
+
+    Araçlar: FTK, EnCase, Autopsy, Volatility
+
+    Sertifikalar: GCFE, CFCE, EnCE
+
+    Ortalama Maaş: $75,000 - $120,000
+
+✅ Avantajlar:
+
+    Adli bilişim uzmanı olma prestiji
+
+    Yasal süreçlerde kritik rol
+
+    Metodik ve detaylı çalışma ortamı
+
+    Kamu ve özel sektörde istihdam
+
+⚠️ Zorluklar:
+
+    Çok yavaş ve detaylı çalışma temposu
+
+    Yüksek düzeyde dikkat ve sabır gerektirmesi
+
+    Mahkemede ifade verme zorunluluğu
+
+🎯 Kimler İçin Uygun:
+
+    Detaylara takıntılı derecede dikkat edenler
+
+    Sabırlı ve metodik çalışanlar
+
+    Puzzle çözmeyi seven bireyler
+
+5. PENETRATION TESTER
+🎯 Rol Tanımı:
+
+Ethical hacking yöntemleriyle sistem zafiyetlerini tespit etme.
+📊 Teknik Detaylar:
+
+    Temel Beceriler: Exploitation techniques, vulnerability assessment
+
+    Araçlar: Metasploit, Burp Suite, Nmap, Custom scripts
+
+    Sertifikalar: OSCP, CEH, GPEN
+
+    Ortalama Maaş: $80,000 - $150,000
+
+✅ Avantajlar:
+
+    Yüksek maaş ve serbest çalışma imkanı
+
+    "Hacker" mindset kazanma
+
+    Sürekli yeni teknolojiler öğrenme
+
+    Creative problem solving fırsatları
+
+⚠️ Zorluklar:
+
+    Yoğun rekabet ve yüksek giriş bariyeri
+
+    Sürekli sertifika ve skill güncelleme ihtiyacı
+
+    Müşteri beklentilerini yönetme zorluğu
+
+🎯 Kimler İçin Uygun:
+
+    Yaratıcı düşünceye sahip bireyler
+
+    Teknoloji meraklıları ve puzzle severler
+
+    Bağımsız çalışmaya yatkın kişiler
+
+6. RED TEAMER
+🎯 Rol Tanımı:
+
+Advanced persistent threat (APT) senaryolarıyla kurum savunmalarını test etme.
+📊 Teknik Detaylar:
+
+    Temel Beceriler: Advanced exploitation, social engineering, covert ops
+
+    Araçlar: C2 frameworks, custom malware, physical security tools
+
+    Sertifikalar: CRTO, OSEP, GXPN
+
+    Ortalama Maaş: $120,000 - $200,000
+
+✅ Avantajlar:
+
+    Sektördeki en yüksek maaş potansiyeli
+
+    Elite siber güvenlik uzmanı statüsü
+
+    Son derece creative ve challenging iş
+
+    Strategic thinking geliştirme
+
+⚠️ Zorluklar:
+
+    Çok yüksek teknik ve taktiksel bilgi gereksinimi
+
+    Uzun ve karmaşık operasyonlar
+
+    Yoğun stres ve yüksek beklentiler
+
+🎯 Kimler İçin Uygun:
+
+    Deneyimli penetration tester'lar
+
+    Stratejik düşünebilen taktikçiler
+
+    Yüksek baskı altında performans gösterebilenler
+
+7. MALWARE ANALYST
+🎯 Rol Tanımı:
+
+Kötü amaçlı yazılımları reverse engineering ile analiz etme.
+📊 Teknik Detaylar:
+
+    Temel Beceriler: Assembly, reverse engineering, behavioral analysis
+
+    Araçlar: IDA Pro, Ghidra, x64dbg, YARA
+
+    Sertifikalar: GREM, GREM, CREA
+
+    Ortalama Maaş: $100,000 - $180,000
+
+✅ Avantajlar:
+
+    Derin teknik uzmanlık
+
+    Yüksek maaş ve uzman premium'u
+
+    Global threat intelligence katkısı
+
+    Akademik ve research odaklı çalışma
+
+⚠️ Zorluklar:
+
+    Çok yüksek teknik bariyer
+
+    Sürekli evolving malware ile mücadele
+
+    Mental olarak yorucu detaylı çalışma
+
+🎯 Kimler İçin Uygun:
+
+    Low-level programming meraklıları
+
+    Sonsuz sabra sahip analistler
+
+    Research odaklı çalışmayı sevenler
