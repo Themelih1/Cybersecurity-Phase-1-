@@ -1,0 +1,77 @@
+Genel Bakış
+
+Siber güvenlik sertifikaları, sektöre girişte büyük avantaj sağlar.
+
+Maaş artışı, işe alım şansını artırma ve yetkinlik kanıtı açısından faydalıdır.
+
+Ancak zorunlu değildir – özellikle başlangıç seviyesinde deneyim ve pratik bilgi de yeterli olabilir.
+
+TryHackMe, bu sertifikalara hazırlanmak için uygulamalı eğitim laboratuvarları sunar.
+
+🧩 Popüler Sertifikalar
+
+🔐 CompTIA Security+
+
+Başlangıç için en uygun sertifika.
+
+Temel güvenlik kavramlarını öğretir.
+
+Ön koşul: Yok.
+
+🕵️‍♂️ CompTIA Pentest+
+
+Pentest araçları ve yöntemlerini öğretir.
+
+Önerilen ön koşul: Security+ veya Network+ bilgisi.
+
+🧠 OSCP (Offensive Security Certified Professional)
+
+Etik hacker ve penetration tester olmak isteyenler için.
+
+Zor bir sınav, önce “Penetration Testing with Kali Linux” kursu tamamlanmalı.
+
+💼 CISSP (Certified Information Systems Security Professional)
+
+Üst düzey yönetim pozisyonlarına yönelik.
+
+5+ yıl tecrübe gerektirir.
+
+📊 CISM (Certified Information Security Manager)
+
+Güvenlik yöneticileri için.
+
+5 yıl bilgi güvenliği yönetimi tecrübesi gerekir.
+
+🧾 CISA (Certified Information Systems Auditor)
+
+Denetim (audit) ve bilgi güvenliği yönetimi alanında uluslararası sertifika.
+
+5 yıl tecrübe gerekir.
+
+🧩 CySA+ (CompTIA Cybersecurity Analyst)
+
+Tehdit analizi, olay tespiti ve risk yönetimi becerilerini kanıtlar.
+
+4 yıl deneyim önerilir.
+
+🧑‍💻 Yeni Başlayanlar İçin En Uygun Sertifika
+
+CompTIA Security+, ön koşul istemediği ve temelden başladığı için en uygun sertifikadır.
+
+İstersen TryHackMe’nin “CompTIA Pentest+ Pathway” kursuyla da hazırlanabilirsin.
+
+🚀 Sertifika Olmadan da Kariyer Mümkün
+
+Sertifikalar faydalı olsa da şart değil.
+
+TryHackMe gibi platformlarda pratik beceriler kazanarak da işe girmek mümkün.
+
+🧠 Nasıl Sertifika Alınır?
+
+İlgini çeken sertifikayı seç.
+
+TryHackMe’nin ilgili eğitim yolunu (pathway) takip et.
+
+Gerçek senaryolarla pratik yap.
+
+Sertifika sınavına gir.
